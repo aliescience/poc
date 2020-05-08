@@ -1,0 +1,42 @@
+{
+  "id": "6ec0236a-67a3-435c-b73c-c08cf8f55597",
+  "name": "TEST | USOps",
+  "rows": 99522,
+  "columns": 17,
+  "schema": {
+    "columns": [
+      { "type": "STRING", "name": "Source" },
+      { "type": "DATE", "name": "Date" },
+      { "type": "LONG", "name": "Year" },
+      { "type": "LONG", "name": "Month" },
+      { "type": "STRING", "name": "PSM ID" },
+      { "type": "STRING", "name": "Region ID" },
+      { "type": "STRING", "name": "Unit" },
+      { "type": "STRING", "name": "Metrics" },
+      { "type": "DOUBLE", "name": "Value PSM" },
+      { "type": "STRING", "name": "Threshold PSM" },
+      { "type": "STRING", "name": "Threshold Result PSM" },
+      { "type": "DOUBLE", "name": "Value Region" },
+      { "type": "STRING", "name": "Threshold Region" },
+      { "type": "STRING", "name": "Threshold Result Region" },
+      { "type": "DOUBLE", "name": "Value Unit" },
+      { "type": "STRING", "name": "Threshold Unit" },
+      { "type": "STRING", "name": "Threshold Result Unit" }
+    ]
+  },
+  "owner": { "id": 463418640, "name": "Cons Dewanto Widiartono" },
+  "dataCurrentAt": "2020-03-27T08:34:41Z",
+  "createdAt": "2020-03-16T06:54:17Z",
+  "updatedAt": "2020-03-27T08:34:42Z",
+  "pdpEnabled": false,
+  "policies": [
+    {
+      "id": 6765,
+      "type": "open",
+      "name": "All Rows",
+      "filters": [],
+      "users": [],
+      "groups": []
+    }
+  ]
+}
